@@ -146,7 +146,7 @@ carte.on('load', async () => {
   });
 
   appliquerFond = installerFonds(carte, couchesDeBase, 'satellite');
-  await appliquerFond('parchemin');
+  await appliquerFond('plan');
   appliquerDate(curseur.value);
 
   // Cadrer la carte sur l'ensemble des données
@@ -301,9 +301,10 @@ function afficherApropos() {
   panneau.scrollTop = 0;
 }
 document.getElementById('btn-apropos').addEventListener('click', afficherApropos);
+// Fermer une fiche ramène la présentation de l'atlas (journal de bord fixe, comme l'Atlas Aubry)
 function fermerFiche() {
-  const panneau = document.getElementById('panneau');
-  panneau.classList.remove('ouvert');
   if (carte.getLayer('trajet-actif')) carte.setFilter('trajet-actif', ['==', ['get', 'id'], '']);
+  afficherApropos();
 }
+afficherApropos();
 document.addEventListener('keydown', e => { if (e.key === 'Escape') fermerFiche(); });
