@@ -12,6 +12,7 @@ import json, datetime, os
 
 G = "Gagnon, Louis Jolliet (2e éd., 1913)"
 R = "Récit des voyages du P. Marquette (1855)"
+KZ = "R. Knight et L. Zeuch, « Mount Joliet: Its Place in Illinois History and Its Location », Journal of the Illinois State Historical Society, vol. 23, n° 1 (avril 1930), p. 84-91"
 B = "BAnQ, P1000,S3,D1035, Documents officiels et Relations sur les voyages de Louis Jolliet"
 
 def dec(edtf):
@@ -330,6 +331,11 @@ L('L46', "Mort de Louis Jolliet", -59.17, 50.83, '1700-05-04/1700-10-18', 'circa
   "Louis Jolliet signe pour la dernière fois un acte de la paroisse de Québec le 4 mai 1700. Le 18 octobre suivant, Callières et Champigny annoncent sa mort au ministre ; Franquelin reçoit sa charge d'hydrographe. Selon Pierre Margry, il serait mort et aurait été enterré dans une île en face du Gros Mécatina, sur la côte nord. Sa veuve, Claire Bissot, meurt à Québec le 1er mars 1710.",
   f"{G}, p. 283-293, 322.",
   "Lieu et date de la mort incertains : le point suit l'hypothèse de Margry, que Gagnon juge mal établie.")
+
+L('L47', "Mont Joliet : la butte des voyageurs sur la rivière des Plaines", -88.07, 41.50, '1674/1930', 'annee', 'approximative', 'toponymie',
+  "Sur la plaine à l'ouest de la rivière des Plaines, en tête du lac Joliet, une butte glaciaire isolée, haute de plus de soixante pieds et longue de trois quarts de mille, servait de repère aux canotiers sur la route du portage de Chicago. La carte de Jolliet de 1674 porte déjà « Mont Joliet », et le nom passe sur les cartes de Hutchins, Morse, Carey et Hull, qui nomme le plan d'eau « Lake Mount Jolliette » ; en 1790, le traiteur Heward décrit le « village of Mount Juiliette » et la haute colline qui ressemble au fort Lernoult de Détroit. Arasée au XIXe siècle pour fournir le ballast des chemins de fer, la butte a donné son nom à la ville de Joliet ; en 1930, il n'en restait que deux buttes près du canal, au sud de Rockdale.",
+  f"{KZ}.",
+  "Position d'après le levé de Belin et Barnard (1831), sections 19 et 20, canton 35 N, rang 10 E, au sud de Rockdale.")
 
 os.makedirs('data', exist_ok=True)
 for nom, feats in (('lieux', LIEUX), ('trajets', TRAJETS)):

@@ -54,10 +54,10 @@ new ResizeObserver(() => carte.resize()).observe(document.getElementById('carte'
 
 // Couleurs d'encre par catégorie de lieu
 const COULEURS = { combat: '#9a3322', fondation: '#3f5a2a', decouverte: '#2f4d63', port: '#6b5a3c', escale: '#6b5a3c',
-                   naissance: '#1f2f3a', vie: '#1f2f3a', mort: '#1f2f3a', concession: '#3f5a2a', naufrage: '#9a3322' };
+                   naissance: '#1f2f3a', vie: '#1f2f3a', mort: '#1f2f3a', concession: '#3f5a2a', naufrage: '#9a3322', toponymie: '#6b5a3c' };
 const couleurCategorie = ['match', ['get', 'categorie'], ...Object.entries(COULEURS).flat(), '#1f2f3a'];
 const NOMS_CATEGORIE = { combat: 'combat', fondation: 'fondation', decouverte: 'découverte', port: 'port', escale: 'escale',
-                         naissance: 'naissance', vie: 'vie à Québec', mort: 'mort', concession: 'seigneurie, concession', naufrage: 'naufrage' };
+                         naissance: 'naissance', vie: 'vie à Québec', mort: 'mort', concession: 'seigneurie, concession', naufrage: 'naufrage', toponymie: 'trace, toponyme' };
 const NOMS_MODE = { mer: 'route maritime', cote: 'cabotage', terre: 'canot et portages', fleuve: 'navigation fluviale' };
 const ENCRE_MER = '#9a3322', ENCRE_TERRE = '#1f2f3a';
 const estMer = ['in', ['get', 'mode'], ['literal', ['mer', 'cote']]];
