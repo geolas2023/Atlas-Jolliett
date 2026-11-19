@@ -6,20 +6,37 @@
 //   - 1645 à 1667, par année (enfance et études à Québec), en segment compressé ;
 //   - 1668 à 1700, par mois (voyages).
 // La dernière position (max) = « toutes les dates ».
+// Langue de la page : <html lang="en"> (index-en.html) affiche l'interface et les données en anglais.
+const EN = document.documentElement.lang === 'en';
+const L = (fr, en) => EN ? en : fr;
 const AN_DEBUT = 1645, AN_DETAIL = 1668, AN_FIN = 1701;
 const NB_ANNEES = AN_DETAIL - AN_DEBUT;                       // 23 positions annuelles (0 à 22)
 const POS_MAX = NB_ANNEES + (AN_FIN - AN_DETAIL) * 12;        // 23 + 396 = 419
-const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+const MOIS = EN ? ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+             : ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
 function lirePosition(v) {
   v = Number(v);
-  if (v >= POS_MAX) return { libelle: 'Toutes les dates', borne: null };
+  if (v >= POS_MAX) return { libelle: L('Toutes les dates', 'All dates'), borne: null };
   if (v < NB_ANNEES) return { libelle: `${AN_DEBUT + v}`, borne: AN_DEBUT + v + 1 };
   const m = v - NB_ANNEES;
   return { libelle: `${MOIS[m % 12]} ${AN_DETAIL + Math.floor(m / 12)}`, borne: AN_DETAIL + (m + 1) / 12 };
 }
 
 // Chapitres du livre d'Ernest Gagnon (2e éd., 1913), pour situer chaque entrée du journal
-const CHAPITRES = [
+const CHAPITRES = EN ? [
+  [1667.6, 'Ch. I · Birth and youth in Quebec'],
+  [1672.7, 'Ch. II · In the Great Lakes country'],
+  [1673.46, 'Ch. III · Toward the Wild Rice country'],
+  [1673.8, 'Ch. IV-V · On the waters of the Mississippi'],
+  [1674.9, 'Ch. VI-VII · The return to Quebec'],
+  [1675.7, 'Ch. VIII · The second voyage and the death of Marquette'],
+  [1679.3, 'Ch. IX-X · Marriage and Quebec society'],
+  [1680, 'Ch. XI · The voyage to Hudson Bay'],
+  [1694, 'Ch. XII-XIII · Anticosti, Mingan and the war'],
+  [1695, 'Ch. XIV · The voyage to Labrador'],
+  [9999, 'Ch. XV · The last years']
+]
+  : [
   [1667.6, 'Ch. I · Naissance et jeunesse à Québec'],
   [1672.7, 'Ch. II · Au pays des grands lacs'],
   [1673.46, 'Ch. III · Vers le pays de la Folle Avoine'],
@@ -56,16 +73,18 @@ new ResizeObserver(() => carte.resize()).observe(document.getElementById('carte'
 const COULEURS = { combat: '#9a3322', fondation: '#3f5a2a', decouverte: '#2f4d63', port: '#6b5a3c', escale: '#6b5a3c',
                    naissance: '#1f2f3a', vie: '#1f2f3a', mort: '#1f2f3a', concession: '#3f5a2a', naufrage: '#9a3322', toponymie: '#6b5a3c' };
 const couleurCategorie = ['match', ['get', 'categorie'], ...Object.entries(COULEURS).flat(), '#1f2f3a'];
-const NOMS_CATEGORIE = { combat: 'combat', fondation: 'fondation', decouverte: 'découverte', port: 'port', escale: 'escale',
+const NOMS_CATEGORIE = EN ? { combat: 'battle', fondation: 'founding', decouverte: 'discovery', port: 'port', escale: 'stop', naissance: 'birth', vie: 'life in Quebec', mort: 'death', concession: 'seigneury, land grant', naufrage: 'shipwreck', toponymie: 'trace, place name' }
+  : { combat: 'combat', fondation: 'fondation', decouverte: 'découverte', port: 'port', escale: 'escale',
                          naissance: 'naissance', vie: 'vie à Québec', mort: 'mort', concession: 'seigneurie, concession', naufrage: 'naufrage', toponymie: 'trace, toponyme' };
-const NOMS_MODE = { mer: 'route maritime', cote: 'cabotage', terre: 'canot et portages', fleuve: 'navigation fluviale' };
+const NOMS_MODE = EN ? { mer: 'sea route', cote: 'coastal voyage', terre: 'canoe and portages', fleuve: 'river navigation' }
+  : { mer: 'route maritime', cote: 'cabotage', terre: 'canot et portages', fleuve: 'navigation fluviale' };
 const ENCRE_MER = '#9a3322', ENCRE_TERRE = '#1f2f3a';
 const estMer = ['in', ['get', 'mode'], ['literal', ['mer', 'cote']]];
 
 carte.on('load', async () => {
   const [lieux, trajets] = await Promise.all([
-    fetch(`data/lieux.geojson?v=${VERSION}`).then(r => r.json()),
-    fetch(`data/trajets.geojson?v=${VERSION}`).then(r => r.json())
+    fetch(`data/lieux${L('', '-en')}.geojson?v=${VERSION}`).then(r => r.json()),
+    fetch(`data/trajets${L('', '-en')}.geojson?v=${VERSION}`).then(r => r.json())
   ]);
   window.DONNEES = { lieux, trajets }; // utilisé par la visite animée (visite.js)
   const couchesDeBase = carte.getStyle().layers.map(l => l.id);
@@ -76,7 +95,7 @@ carte.on('load', async () => {
   carte.addSource('satellite', {
     type: 'raster', tileSize: 256, maxzoom: 19,
     tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
-    attribution: 'Imagerie © Esri, Maxar, Earthstar Geographics et contributeurs'
+    attribution: L('Imagerie © Esri, Maxar, Earthstar Geographics et contributeurs', 'Imagery © Esri, Maxar, Earthstar Geographics and contributors')
   });
   carte.addLayer({ id: 'satellite', type: 'raster', source: 'satellite', layout: { visibility: 'none' } });
 
@@ -195,14 +214,14 @@ curseur.addEventListener('input', () => appliquerDate(curseur.value));
   const annee = (v, texte) => {
     const a = document.createElement('span');
     a.className = 'annee'; a.textContent = texte; a.style.left = position(v);
-    a.title = `Aller à ${texte}`;
+    a.title = L(`Aller à ${texte}`, `Go to ${texte}`);
     a.addEventListener('click', () => { curseur.value = v; appliquerDate(v); });
     g.appendChild(a);
   };
   const bande = document.createElement('span');
   bande.className = 'segment-compresse'; bande.style.left = position(0);
   bande.style.width = `calc(${(NB_ANNEES - 0.5) / POS_MAX} * (100% - ${POUCE}px))`;
-  bande.title = '1645-1667 : échelle compressée (une position par année)';
+  bande.title = L('1645-1667 : échelle compressée (une position par année)', '1645-1667: compressed scale (one step per year)');
   g.appendChild(bande);
   for (let v = 0; v < NB_ANNEES; v++) trait(v, (AN_DEBUT + v) % 5 === 0 || v === 0 ? 'trait' : 'trait mineur');
   annee(0, '1645');
@@ -240,14 +259,15 @@ document.getElementById('c-trajets').addEventListener('change', e => {
 
 // ---------- Journal de bord (panneau documentaire) ----------
 const echapper = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const NOMS_CERTITUDE = { certaine: 'localisation certaine', approximative: 'approximative', hypothetique: 'hypothétique' };
+const NOMS_CERTITUDE = EN ? { certaine: 'location certain', approximative: 'approximate', hypothetique: 'hypothetical' }
+                         : { certaine: 'localisation certaine', approximative: 'approximative', hypothetique: 'hypothétique' };
 // Date EDTF -> date lisible (« 1697-09-05 » -> « 5 septembre 1697 » ; « ~ » = vers)
 function dateLisible(edtf) {
   if (!edtf) return '';
   return String(edtf).split('/').map(d => {
     const approx = /[~?]/.test(d), [a, m, j] = d.replace(/[~?]/g, '').split('-').map(Number);
-    const txt = j ? `${j === 1 ? '1er' : j} ${MOIS[m - 1]} ${a}` : m ? `${MOIS[m - 1]} ${a}` : `${a}`;
-    return approx ? `vers ${txt}` : txt;
+    const txt = j ? (EN ? `${MOIS[m - 1]} ${j}, ${a}` : `${j === 1 ? '1er' : j} ${MOIS[m - 1]} ${a}`) : m ? `${MOIS[m - 1]} ${a}` : `${a}`;
+    return approx ? `${L('vers', 'c.')} ${txt}` : txt;
   }).join(' – ');
 }
 
@@ -268,7 +288,7 @@ function afficherFiche(p, geom) {
   const genre = estTrajet ? (NOMS_MODE[p.mode] || 'route') : (NOMS_CATEGORIE[p.categorie] || '');
   const panneau = document.getElementById('panneau');
   panneau.innerHTML = `
-    <button type="button" class="fermer" aria-label="Fermer le journal" title="Fermer (Échap)">✕</button>
+    <button type="button" class="fermer" aria-label="${L('Fermer le journal', 'Close the journal')}" title="${L('Fermer (Échap)', 'Close (Esc)')}">✕</button>
     <p class="chapitre">${echapper(chapitre(Number(p.debut)))}</p>
     <h2>${echapper(p.nom)}</h2>
     <div class="filet" aria-hidden="true">⚓</div>
@@ -278,8 +298,8 @@ function afficherFiche(p, geom) {
       <span class="badge ${echapper(p.certitude)}">${echapper(NOMS_CERTITUDE[p.certitude] || p.certitude)}</span>
     </p>
     ${p.description ? `<p class="description">${echapper(p.description)}</p>` : ''}
-    ${p.note ? `<p class="note"><strong>Note critique :</strong> ${echapper(p.note)}</p>` : ''}
-    <div class="sources"><strong>Source :</strong> ${echapper(p.sources)}</div>`;
+    ${p.note ? `<p class="note"><strong>${L('Note critique :', 'Critical note:')}</strong> ${echapper(p.note)}</p>` : ''}
+    <div class="sources"><strong>${L('Source :', 'Source:')}</strong> ${echapper(p.sources)}</div>`;
   panneau.querySelector('.fermer').addEventListener('click', fermerFiche);
   panneau.classList.add('ouvert');
   panneau.scrollTop = 0;
@@ -288,7 +308,14 @@ function afficherFiche(p, geom) {
 function afficherApropos() {
   if (carte.getLayer('trajet-actif')) carte.setFilter('trajet-actif', ['==', ['get', 'id'], '']);
   const panneau = document.getElementById('panneau');
-  panneau.innerHTML = `
+  panneau.innerHTML = EN ? `
+    <button type="button" class="fermer" aria-label="Close" title="Close (Esc)">✕</button>
+    <h2>Logbook</h2>
+    <div class="filet" aria-hidden="true">⚓</div>
+    <p class="description">Baptized in Quebec in 1645 and dead in 1700, no one knows where, Louis Jolliet went down the Mississippi with Father Marquette in 1673, reached Hudson Bay by the Saguenay in 1679 and sailed up the Labrador coast in 1694. Seigneur of Anticosti and Mingan, he was the first royal hydrographer born in Canada. This atlas follows his voyages according to Ernest Gagnon, <em>Louis Jolliet</em> (2nd ed., Montreal, Beauchemin, 1913), Father Marquette's <em>Récit des voyages</em> (1855) and the documents held by Bibliothèque et Archives nationales du Québec.</p>
+    <p>Click a place or a route to open its logbook entry. The timeline moves by year from 1645 to 1667 (childhood and studies in Quebec), then by month from 1668 to 1700. The ▶ button starts the journey: the canoe or ship follows each route and the map stops at each stage.</p>
+    <p class="avertissement">Routes are reconstructed along the main waterways and the attested stops; dotted lines mark a hypothetical route. Each entry refers to the pages of Gagnon, of the <em>Récit</em> or to the BAnQ files, and flags the uncertainties. The descriptions are translated from the French.</p>
+    <div class="sources">Olivier J. Caron, Department of Geography, UQAM · Documents: BAnQ, P1000,S3,D1035.</div>` : `
     <button type="button" class="fermer" aria-label="Fermer" title="Fermer (Échap)">✕</button>
     <h2>Journal de bord</h2>
     <div class="filet" aria-hidden="true">⚓</div>

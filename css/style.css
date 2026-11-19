@@ -244,3 +244,7 @@ body:not(.fond-parchemin) .parchemin { display: none; }
   .contenu { grid-template-columns: 1fr; grid-template-rows: 1fr 40%; }
   #panneau { border-left: 0; border-top: 1px solid #d6cbb8; }
 }
+
+/* Lien de langue English / Français (pages jumelles index.html / index-en.html) */
+.barre .lien-reseau + .lien-langue { margin-left: .6rem; }
+.barre .lien-langue + .credit { margin-left: .9rem; }
