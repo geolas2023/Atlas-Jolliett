@@ -1,0 +1,1379 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -71.205,
+      46.812
+     ],
+     [
+      -70.5,
+      47.3
+     ],
+     [
+      -68.0,
+      48.9
+     ],
+     [
+      -64.5,
+      49.6
+     ],
+     [
+      -61.0,
+      48.3
+     ],
+     [
+      -59.4,
+      47.4
+     ],
+     [
+      -57.0,
+      46.6
+     ],
+     [
+      -52.0,
+      46.2
+     ],
+     [
+      -40.0,
+      46.4
+     ],
+     [
+      -25.0,
+      46.6
+     ],
+     [
+      -10.0,
+      46.3
+     ],
+     [
+      -1.6,
+      46.1
+     ],
+     [
+      -1.15,
+      46.16
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T01",
+    "nom": "Voyage to France",
+    "debut": 1667.6562,
+    "fin": 1667.7877,
+    "date_edtf": "1667-08-28/1667-10",
+    "certitude": "hypothetique",
+    "mode": "mer",
+    "description": "On August 28, 1667, Louis Jolliet sails from Quebec for France aboard the Saint-Sébastien. He spends the winter there, probably to learn hydrography and trade, before returning to Canada the following year to go into the fur trade.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 41-43.",
+    "note": "The port of arrival is not known: La Rochelle, the main port of departure for Canada, is assumed. The route follows the river, the Gulf and the Cabot Strait.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -1.15,
+      46.16
+     ],
+     [
+      -1.6,
+      46.1
+     ],
+     [
+      -10.0,
+      46.8
+     ],
+     [
+      -25.0,
+      47.2
+     ],
+     [
+      -40.0,
+      47.0
+     ],
+     [
+      -52.0,
+      46.4
+     ],
+     [
+      -57.0,
+      46.7
+     ],
+     [
+      -59.4,
+      47.5
+     ],
+     [
+      -61.2,
+      48.4
+     ],
+     [
+      -64.5,
+      49.7
+     ],
+     [
+      -68.0,
+      49.0
+     ],
+     [
+      -70.5,
+      47.4
+     ],
+     [
+      -71.205,
+      46.812
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T02",
+    "nom": "Return to Canada",
+    "debut": 1668.3702,
+    "fin": 1668.5369,
+    "date_edtf": "1668-05/1668-07",
+    "certitude": "hypothetique",
+    "mode": "mer",
+    "description": "Jolliet returns from France in the spring of 1668 and immediately joins the trade to the pays d'en haut (the upper country).",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 43.",
+    "note": "Date and route reconstructed: Gagnon indicates only the return in 1668.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.56,
+      45.5
+     ],
+     [
+      -74.0,
+      45.53
+     ],
+     [
+      -75.7,
+      45.42
+     ],
+     [
+      -76.9,
+      45.9
+     ],
+     [
+      -78.5,
+      46.3
+     ],
+     [
+      -79.45,
+      46.32
+     ],
+     [
+      -80.4,
+      46.05
+     ],
+     [
+      -81.2,
+      45.95
+     ],
+     [
+      -82.5,
+      46.0
+     ],
+     [
+      -83.9,
+      46.35
+     ],
+     [
+      -84.35,
+      46.5
+     ],
+     [
+      -85.5,
+      46.7
+     ],
+     [
+      -87.5,
+      47.0
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T03",
+    "nom": "To the copper mines of Lake Superior",
+    "debut": 1669.2863,
+    "fin": 1669.5356,
+    "date_edtf": "1669-04/1669-07",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "description": "On the orders of Intendant Talon, Jolliet sets out with Jean Péré to explore the copper mines of Lake Superior, of which the missionaries have brought back samples. He takes the trade canoe route: the Ottawa, the Mattawa, Lake Nipissing and the French River, then Georgian Bay and Sault Ste. Marie.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 43-47.",
+    "note": "Route reconstructed along the usual canoe route; the end point on Lake Superior is symbolic.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.68,
+      45.43
+     ],
+     [
+      -74.0,
+      45.53
+     ],
+     [
+      -75.7,
+      45.42
+     ],
+     [
+      -76.9,
+      45.9
+     ],
+     [
+      -78.5,
+      46.3
+     ],
+     [
+      -79.45,
+      46.32
+     ],
+     [
+      -80.4,
+      46.05
+     ],
+     [
+      -81.2,
+      45.95
+     ],
+     [
+      -82.5,
+      45.95
+     ],
+     [
+      -83.6,
+      45.9
+     ],
+     [
+      -84.73,
+      45.86
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T04",
+    "nom": "From Lachine to Michilimackinac",
+    "debut": 1672.7883,
+    "fin": 1672.9358,
+    "date_edtf": "1672-10/1672-12-08",
+    "certitude": "approximative",
+    "mode": "terre",
+    "description": "Charged by Frontenac with discovering the South Sea by way of the great Mississippi River, Jolliet leaves Lachine in the fall of 1672 with five men. On October 1 he has signed a trading partnership contract with his brother Zacharie and François de Chavigny. He goes up the Ottawa and reaches Georgian Bay: some 350 leagues and about fifty portages. He arrives at the St. Ignace mission at Michilimackinac on December 8.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 63-68, 135; Récit des voyages du P. Marquette (1855), p. 5-6.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -84.73,
+      45.866
+     ],
+     [
+      -85.6,
+      45.75
+     ],
+     [
+      -86.6,
+      45.55
+     ],
+     [
+      -87.3,
+      45.3
+     ],
+     [
+      -87.62,
+      45.1
+     ],
+     [
+      -87.75,
+      44.9
+     ],
+     [
+      -88.0,
+      44.55
+     ],
+     [
+      -88.06,
+      44.45
+     ],
+     [
+      -88.25,
+      44.27
+     ],
+     [
+      -88.45,
+      44.02
+     ],
+     [
+      -88.75,
+      43.95
+     ],
+     [
+      -88.95,
+      43.8
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T05",
+    "nom": "From Michilimackinac to the Mascouten",
+    "debut": 1673.374,
+    "fin": 1673.4315,
+    "date_edtf": "1673-05-17/1673-06-07",
+    "certitude": "approximative",
+    "mode": "terre",
+    "description": "The two canoes follow the north shore of Lake Michigan to the Baie des Puants. They go up the Fox River, whose rapids and sharp rocks cut the feet of the men hauling the canoes, and cross Lake Winnebago to the Mascouten town.",
+    "sources": "Récit des voyages du P. Marquette (1855), p. 9-19; Gagnon, Louis Jolliet (2e éd., 1913), p. 78-82.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -89.46,
+      43.54
+     ],
+     [
+      -89.75,
+      43.3
+     ],
+     [
+      -90.1,
+      43.18
+     ],
+     [
+      -90.6,
+      43.15
+     ],
+     [
+      -90.9,
+      43.05
+     ],
+     [
+      -91.17,
+      42.99
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T06",
+    "nom": "Down the Wisconsin to the Mississippi",
+    "debut": 1673.4397,
+    "fin": 1673.4589,
+    "date_edtf": "1673-06-10/1673-06-17",
+    "certitude": "certaine",
+    "mode": "fleuve",
+    "description": "For seven days the canoes go down the Wisconsin, a broad, sandy-bottomed river dotted with islands and sandbars, between prairies, woods and hills. The guides have spoken of a lead mine near its banks.",
+    "sources": "Récit des voyages du P. Marquette (1855), p. 25-27; Gagnon, Louis Jolliet (2e éd., 1913), p. 85-89.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -91.17,
+      42.99
+     ],
+     [
+      -91.1,
+      42.5
+     ],
+     [
+      -90.65,
+      42.0
+     ],
+     [
+      -90.4,
+      41.5
+     ],
+     [
+      -91.0,
+      40.9
+     ],
+     [
+      -91.45,
+      40.42
+     ],
+     [
+      -91.4,
+      39.9
+     ],
+     [
+      -90.9,
+      39.4
+     ],
+     [
+      -90.6,
+      39.0
+     ],
+     [
+      -90.17,
+      38.89
+     ],
+     [
+      -90.12,
+      38.81
+     ],
+     [
+      -90.2,
+      38.5
+     ],
+     [
+      -89.95,
+      38.0
+     ],
+     [
+      -89.52,
+      37.4
+     ],
+     [
+      -89.15,
+      37.0
+     ],
+     [
+      -89.5,
+      36.5
+     ],
+     [
+      -89.6,
+      36.0
+     ],
+     [
+      -90.05,
+      35.15
+     ],
+     [
+      -90.4,
+      34.8
+     ],
+     [
+      -90.6,
+      34.5
+     ],
+     [
+      -91.0,
+      34.1
+     ],
+     [
+      -91.05,
+      33.95
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T07",
+    "nom": "Down the Mississippi",
+    "debut": 1673.4589,
+    "fin": 1673.5384,
+    "date_edtf": "1673-06-17/1673-07-16",
+    "certitude": "certaine",
+    "mode": "fleuve",
+    "description": "For a month the canoes descend the Mississippi, from 42 and a half degrees to about 33 degrees. They pass the painted rocks of the Piasa, the turbulent mouth of the Pekitanouï (Missouri), Tower Rock and the Ouabouskigou (Ohio). Farther south come the canebrakes and the mosquitoes, then the villages of Mitchigamea and Akansea, armed with muskets.",
+    "sources": "Récit des voyages du P. Marquette (1855), p. 27-90; Gagnon, Louis Jolliet (2e éd., 1913), p. 89-118.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -91.05,
+      33.95
+     ],
+     [
+      -91.0,
+      34.1
+     ],
+     [
+      -90.6,
+      34.5
+     ],
+     [
+      -90.05,
+      35.15
+     ],
+     [
+      -89.6,
+      36.0
+     ],
+     [
+      -89.5,
+      36.5
+     ],
+     [
+      -89.15,
+      37.0
+     ],
+     [
+      -89.52,
+      37.4
+     ],
+     [
+      -89.95,
+      38.0
+     ],
+     [
+      -90.2,
+      38.5
+     ],
+     [
+      -90.12,
+      38.81
+     ],
+     [
+      -90.45,
+      38.97
+     ],
+     [
+      -90.6,
+      39.4
+     ],
+     [
+      -90.4,
+      39.85
+     ],
+     [
+      -90.0,
+      40.2
+     ],
+     [
+      -89.59,
+      40.69
+     ],
+     [
+      -89.3,
+      40.95
+     ],
+     [
+      -88.98,
+      41.32
+     ],
+     [
+      -88.4,
+      41.4
+     ],
+     [
+      -88.08,
+      41.5
+     ],
+     [
+      -87.9,
+      41.7
+     ],
+     [
+      -87.75,
+      41.82
+     ],
+     [
+      -87.62,
+      41.89
+     ],
+     [
+      -87.75,
+      42.6
+     ],
+     [
+      -87.85,
+      43.4
+     ],
+     [
+      -87.6,
+      44.2
+     ],
+     [
+      -87.9,
+      44.55
+     ],
+     [
+      -88.06,
+      44.45
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T08",
+    "nom": "The return by the Illinois River",
+    "debut": 1673.5411,
+    "fin": 1673.7329,
+    "date_edtf": "1673-07-17/1673-09-25",
+    "certitude": "approximative",
+    "mode": "fleuve",
+    "description": "On July 17, 1673, the canoes leave Akansea and struggle back up against the current. At about 38 degrees they take the Illinois River, the most beautiful and convenient they have seen, lined with prairies and woods. They stop for three days with the Peoria. A Kaskaskia chief and his young men then guide them to the Lake of the Illinois (Michigan) by the Chicago portage, and they follow the west shore of the lake to the Baie des Puants.",
+    "sources": "Récit des voyages du P. Marquette (1855), p. 90-92; Gagnon, Louis Jolliet (2e éd., 1913), p. 125-133.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -88.06,
+      44.45
+     ],
+     [
+      -87.6,
+      44.9
+     ],
+     [
+      -87.0,
+      45.4
+     ],
+     [
+      -86.0,
+      45.75
+     ],
+     [
+      -84.73,
+      45.866
+     ],
+     [
+      -84.3,
+      46.0
+     ],
+     [
+      -84.1,
+      46.25
+     ],
+     [
+      -84.35,
+      46.49
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T09",
+    "nom": "From the Baie des Puants to Sault Ste. Marie",
+    "debut": 1673.7877,
+    "fin": 1673.8726,
+    "date_edtf": "1673-10/1673-11",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "description": "After leaving Marquette, Jolliet returns to St. Ignace of Michilimackinac, then to Sault Ste. Marie, where he spends the winter making fair copies of his journal and map.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 133-134.",
+    "note": "Gagnon deduces this route from the account of the 1674 accident; a document in his appendix places the wintering at the St. François-Xavier mission.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -84.35,
+      46.49
+     ],
+     [
+      -84.1,
+      46.2
+     ],
+     [
+      -83.5,
+      45.9
+     ],
+     [
+      -82.4,
+      44.6
+     ],
+     [
+      -82.42,
+      43.0
+     ],
+     [
+      -82.6,
+      42.6
+     ],
+     [
+      -83.1,
+      42.1
+     ],
+     [
+      -82.0,
+      42.0
+     ],
+     [
+      -80.4,
+      42.55
+     ],
+     [
+      -79.06,
+      43.08
+     ],
+     [
+      -79.0,
+      43.4
+     ],
+     [
+      -77.5,
+      43.7
+     ],
+     [
+      -76.48,
+      44.22
+     ],
+     [
+      -75.9,
+      44.35
+     ],
+     [
+      -75.0,
+      44.95
+     ],
+     [
+      -74.3,
+      45.2
+     ],
+     [
+      -73.68,
+      45.43
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T10",
+    "nom": "From Sault Ste. Marie to Lachine by the lakes",
+    "debut": 1674.3959,
+    "fin": 1674.5356,
+    "date_edtf": "1674-05-25/1674-07-15",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "description": "At the end of May 1674, Jolliet leaves the Sault with two canoemen. According to Gagnon, he travels down through Lakes Huron, Erie and Ontario, passes Fort Frontenac and the Thousand Islands and reaches the rapids of the Sault Saint-Louis.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 135-136.",
+    "note": "Route proposed by Gagnon; the more usual Ottawa route is not ruled out.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -73.62,
+      45.42
+     ],
+     [
+      -73.55,
+      45.5
+     ],
+     [
+      -73.2,
+      45.85
+     ],
+     [
+      -72.55,
+      46.33
+     ],
+     [
+      -72.0,
+      46.55
+     ],
+     [
+      -71.205,
+      46.812
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T11",
+    "nom": "From the Sault Saint-Louis to Quebec",
+    "debut": 1674.5356,
+    "fin": 1674.5822,
+    "date_edtf": "1674-07~/1674-08-01",
+    "certitude": "approximative",
+    "mode": "fleuve",
+    "description": "Rescued from the water, Jolliet is taken to Ville-Marie, then goes down to Quebec, where the townspeople welcome him.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 137-138.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -71.205,
+      46.812
+     ],
+     [
+      -70.6,
+      47.25
+     ],
+     [
+      -69.72,
+      48.14
+     ],
+     [
+      -70.3,
+      48.4
+     ],
+     [
+      -71.05,
+      48.42
+     ],
+     [
+      -71.7,
+      48.5
+     ],
+     [
+      -72.2,
+      48.75
+     ],
+     [
+      -72.15,
+      49.2
+     ],
+     [
+      -72.4,
+      50.0
+     ],
+     [
+      -73.0,
+      50.6
+     ],
+     [
+      -73.6,
+      51.0
+     ],
+     [
+      -74.3,
+      51.3
+     ],
+     [
+      -75.5,
+      51.45
+     ],
+     [
+      -76.2,
+      51.45
+     ],
+     [
+      -77.2,
+      51.5
+     ],
+     [
+      -78.0,
+      51.45
+     ],
+     [
+      -78.75,
+      51.48
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T12",
+    "nom": "To Hudson Bay by the Saguenay and Lake Mistassini",
+    "debut": 1679.363,
+    "fin": 1679.4808,
+    "date_edtf": "1679-05-13/1679-06-25",
+    "certitude": "approximative",
+    "mode": "terre",
+    "description": "On May 13, 1679, Jolliet leaves Quebec to reconnoiter the English posts on Hudson Bay. He goes up the Saguenay to Lake Saint-Jean, then the long Péribonka River to Lake Mistassini, goes down the Rupert River and crosses Lake Nemiscau. He counts 343 leagues by the winding route, 160 as the crow flies, and 122 portages.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 216-219.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -78.75,
+      51.48
+     ],
+     [
+      -78.0,
+      51.45
+     ],
+     [
+      -76.2,
+      51.45
+     ],
+     [
+      -74.3,
+      51.3
+     ],
+     [
+      -73.6,
+      51.0
+     ],
+     [
+      -72.9,
+      50.4
+     ],
+     [
+      -72.6,
+      49.6
+     ],
+     [
+      -72.25,
+      48.9
+     ],
+     [
+      -71.7,
+      48.5
+     ],
+     [
+      -71.05,
+      48.42
+     ],
+     [
+      -70.3,
+      48.4
+     ],
+     [
+      -69.72,
+      48.14
+     ],
+     [
+      -70.6,
+      47.25
+     ],
+     [
+      -71.205,
+      46.812
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T13",
+    "nom": "Return by the Mistassini River",
+    "debut": 1679.5356,
+    "fin": 1679.8205,
+    "date_edtf": "1679-07/1679-10-27",
+    "certitude": "approximative",
+    "mode": "terre",
+    "description": "Jolliet returns by the Mistassini River, which the Indians call Kokigaousipi, to Lake Saint-Jean, and is back in Quebec on October 27, 1679, after seven months away. He draws a map of his route, dated November 8.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 223-227.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -71.205,
+      46.812
+     ],
+     [
+      -70.5,
+      47.3
+     ],
+     [
+      -69.3,
+      48.2
+     ],
+     [
+      -67.9,
+      49.05
+     ],
+     [
+      -66.4,
+      49.95
+     ],
+     [
+      -65.2,
+      50.05
+     ],
+     [
+      -64.2,
+      50.15
+     ],
+     [
+      -63.9,
+      50.2
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T14",
+    "nom": "From Quebec to Mingan",
+    "debut": 1694.3219,
+    "fin": 1694.426,
+    "date_edtf": "1694-04-28/1694-06-05",
+    "certitude": "approximative",
+    "mode": "cote",
+    "description": "On April 28, 1694, the Saint-François leaves Quebec with Jolliet, his son Louis (18), a Recollet friar, cadets and fourteen crewmen, bound for Mingan, the Strait of Belle Isle and the “oceanic Labrador.” The ship makes several stops for trading and fishing before leaving Mingan in early June.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 253-260.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -63.9,
+      50.2
+     ],
+     [
+      -61.5,
+      50.15
+     ],
+     [
+      -59.8,
+      50.3
+     ],
+     [
+      -58.5,
+      50.85
+     ],
+     [
+      -57.3,
+      51.35
+     ],
+     [
+      -56.7,
+      51.6
+     ],
+     [
+      -55.7,
+      52.05
+     ],
+     [
+      -55.55,
+      52.25
+     ],
+     [
+      -55.75,
+      52.38
+     ],
+     [
+      -55.62,
+      52.6
+     ],
+     [
+      -55.75,
+      52.95
+     ],
+     [
+      -56.2,
+      53.4
+     ],
+     [
+      -56.7,
+      53.65
+     ],
+     [
+      -57.4,
+      54.2
+     ],
+     [
+      -58.0,
+      54.75
+     ],
+     [
+      -59.4,
+      55.05
+     ],
+     [
+      -59.85,
+      55.35
+     ],
+     [
+      -60.2,
+      55.47
+     ],
+     [
+      -60.45,
+      55.65
+     ],
+     [
+      -60.6,
+      55.8
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T15",
+    "nom": "Along the Labrador coast",
+    "debut": 1694.426,
+    "fin": 1694.6123,
+    "date_edtf": "1694-06-05/1694-08-12",
+    "certitude": "hypothetique",
+    "mode": "cote",
+    "description": "From early June to August 12, 1694, Jolliet follows the north shore of the Gulf, passes through the Strait of Belle Isle and sails up the Labrador coast, naming the bays and harbors: Saint-Louis, Saint-François, Saint-Michel, Sainte-Claire. He records latitudes, the declination of the compass needle and the ice, and meets the Inuit.",
+    "sources": "BAnQ, P1000,S3,D1035, Documents officiels and Relations sur les voyages de Louis Jolliet, fichiers 9-12 (journal manuscript de 1694); Gagnon, Louis Jolliet (2e éd., 1913), p. 259-278.",
+    "note": "Route reconstructed from the latitudes estimated by Jolliet (53°44′ to 55°45′), which are approximate; the modern identification of the bays is uncertain.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -60.6,
+      55.8
+     ],
+     [
+      -59.0,
+      55.3
+     ],
+     [
+      -57.6,
+      54.3
+     ],
+     [
+      -56.2,
+      53.3
+     ],
+     [
+      -55.55,
+      52.4
+     ],
+     [
+      -55.7,
+      52.05
+     ],
+     [
+      -57.0,
+      51.45
+     ],
+     [
+      -59.0,
+      50.4
+     ],
+     [
+      -61.5,
+      50.05
+     ],
+     [
+      -64.0,
+      49.95
+     ],
+     [
+      -66.5,
+      49.7
+     ],
+     [
+      -68.2,
+      48.95
+     ],
+     [
+      -69.4,
+      48.15
+     ],
+     [
+      -70.5,
+      47.3
+     ],
+     [
+      -71.205,
+      46.812
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T16",
+    "nom": "Return from Labrador",
+    "debut": 1694.6151,
+    "fin": 1694.7877,
+    "date_edtf": "1694-08-13/1694-10",
+    "certitude": "hypothetique",
+    "mode": "mer",
+    "description": "Back in Quebec in the fall of 1694, Jolliet reports to Frontenac and finds the Château Saint-Louis demolished and being rebuilt. From his voyage he draws a map of Labrador, which he will date October 23, 1699.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 278-282.",
+    "note": "Date and route of the return not specified by Gagnon.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -71.205,
+      46.812
+     ],
+     [
+      -70.5,
+      47.3
+     ],
+     [
+      -68.0,
+      48.9
+     ],
+     [
+      -64.5,
+      49.6
+     ],
+     [
+      -61.0,
+      48.3
+     ],
+     [
+      -59.4,
+      47.4
+     ],
+     [
+      -57.0,
+      46.6
+     ],
+     [
+      -52.0,
+      46.2
+     ],
+     [
+      -40.0,
+      46.4
+     ],
+     [
+      -25.0,
+      46.6
+     ],
+     [
+      -10.0,
+      46.3
+     ],
+     [
+      -1.6,
+      46.1
+     ],
+     [
+      -1.15,
+      46.16
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T17",
+    "nom": "Voyage to France (pilot of La Charente)",
+    "debut": 1695.8726,
+    "fin": 1696.0396,
+    "date_edtf": "1695-11/1696-01",
+    "certitude": "hypothetique",
+    "mode": "mer",
+    "description": "At the end of November 1695, on the orders of Intendant Champigny, Jolliet pilots the king's ship La Charente out of the Gulf, a difficult task so late in the season. He goes on to France, where he presents his maps to M. de Lagny and asks for the post of hydrographer.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 282-285.",
+    "note": "Port of arrival unknown; La Rochelle assumed.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -1.15,
+      46.16
+     ],
+     [
+      -1.6,
+      46.1
+     ],
+     [
+      -10.0,
+      46.8
+     ],
+     [
+      -25.0,
+      47.2
+     ],
+     [
+      -40.0,
+      47.0
+     ],
+     [
+      -52.0,
+      46.4
+     ],
+     [
+      -57.0,
+      46.7
+     ],
+     [
+      -59.4,
+      47.5
+     ],
+     [
+      -61.2,
+      48.4
+     ],
+     [
+      -64.5,
+      49.7
+     ],
+     [
+      -68.0,
+      49.0
+     ],
+     [
+      -70.5,
+      47.4
+     ],
+     [
+      -71.205,
+      46.812
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T18",
+    "nom": "Return from France",
+    "debut": 1696.3702,
+    "fin": 1696.5369,
+    "date_edtf": "1696-05/1696-07",
+    "certitude": "hypothetique",
+    "mode": "mer",
+    "description": "Jolliet returns from France in 1696.",
+    "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 283.",
+    "note": "Date and route reconstructed.",
+    "type": "trajet"
+   }
+  }
+ ]
+}
