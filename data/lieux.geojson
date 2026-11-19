@@ -572,8 +572,8 @@
     "certitude": "certaine",
     "categorie": "vie",
     "description": "À Québec, le supérieur des jésuites Claude Dablon rédige d'après le récit de Jolliet la « Relation de la découverte de la mer du Sud », datée du 1er août 1674. Jolliet redessine de mémoire la carte perdue et la présente à Frontenac, qui l'envoie à Colbert le 14 novembre. Le 10 octobre, il écrit à Mgr de Laval le récit du voyage et de son naufrage. Il a 29 ans.",
-    "sources": "BAnQ, P1000,S3,D1035, Documents officiels et Relations sur les voyages de Louis Jolliet, fichiers 13-28 (manuscrit), 29-36 (édition de 1944) et 37-47 (transcription) ; Gagnon, Louis Jolliet (2e éd., 1913), p. 138-149 ; Gravier, Gabriel (1880), Étude sur une carte inconnue, la première dressée par Louis Joliet en 1674 après son exploration du Mississipi avec le P. Jacques Marquette en 1673, Paris, Maisonneuve, p. 5-15.",
-    "note": "Plusieurs copies de cette carte, de nomenclature différente, sont connues. Gabriel Gravier (1880) en publie une jusque-là inconnue, tirée d'un atlas acquis par la librairie Maisonneuve : intitulée « Decouuerte de Plusieurs Nations Dans la nouuelle France en l'année 1673 et 1674 » (85 × 67 cm), elle serait selon lui la toute première, tracée par Jolliet dès son retour, et la plus ancienne carte du Mississipi ; il y relève la lettre à Frontenac où Jolliet évoque la perte de sa cassette, et la légende sur la « Mer Vermeille » où est la Californie. Les copies du Dépôt des cartes de la Marine nomment le fleuve « Riuiere Colbert », la vallée « Colbertie », la rivière des Illinois « Riuiere de la Diuine » et le Wisconsin « Miskonsing » ; l'une d'elles rapporte un village vu par Jolliet à vingt journées d'une nation commerçant avec la Californie. Gravier attribue aussi à Jolliet le tracé de la grande carte dédiée à Colbert par l'intendant Duchesneau et dessinée par Franquelin.",
+    "sources": "BAnQ, P1000,S3,D1035, Documents officiels et Relations sur les voyages de Louis Jolliet, fichiers 13-28 (manuscrit), 29-36 (édition de 1944) et 37-47 (transcription) ; Gagnon, Louis Jolliet (2e éd., 1913), p. 138-149.",
+    "note": "",
     "type": "lieu"
    }
   },
@@ -1150,6 +1150,30 @@
     "description": "En 1903, Laenas G. Weld refait les calculs du voyage. Pour lui, les latitudes de la carte de Marquette sont décalées d'environ un degré vers le sud, comme celles des embouchures de l'Illinois, du Missouri et de l'Ohio. Les plus de soixante lieues parcourues depuis le Wisconsin (environ 207 milles) conduiraient à un débarquement près de Port Louisa, dans le comté de Louisa, en face de l'embouchure de la rivière Iowa, vers 41° 12'. Ce serait plutôt que près de la Des Moines, site retenu par Gagnon (fiche L12).",
     "sources": "L. G. Weld, « Joliet and Marquette in Iowa », Iowa Journal of History and Politics, vol. 1, n° 1 (janvier 1903), tiré à part, p. 14-22 (PDF du Drive de l'auteur, dossier ILLINOIS_MISSISSIPPI_KANKAKEE_JOLIET_MARQUETTE).",
     "note": "Hypothèse d'auteur, opposée à la localisation de Gagnon ; la question reste ouverte. Point placé à Port Louisa (Iowa).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.2028,
+     46.8129
+    ]
+   },
+   "properties": {
+    "id": "L49",
+    "nom": "Québec, rue Sous-le-Fort : la maison de 1679 et les métiers d'un découvreur sédentaire",
+    "debut": 1679.5,
+    "fin": 1679.5,
+    "date_edtf": "1679",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "vie",
+    "description": "Écarté des pays d'en Haut, Jolliet se résigne à demeurer à Québec, où il cumule les occupations : organiste de la cathédrale, professeur de musique et d'hydrographie, marchand de fourrures. En 1679, il achète une maison au pied de la falaise, rue Sous-le-Fort, et obtient, en copropriété avec son beau-père Jacques de Lalande, les droits d'une seigneurie sur la Côte-Nord. La même année, il part en mai pour la baie d'Hudson par le Saguenay et la Rupert avec son frère Zacharie, Louis et Pierre Lemieux, Guillaume Bissot, Étienne et Pierre Lessard, Pierre Legrand, un nommé Denys, le père Silvy et deux guides innus, Kakarhaben et Sahiou.",
+    "sources": "S. Bouchard et M.-C. Lévesque, Ils ont couru l'Amérique (Montréal, Lux, 2014), ch. « Louis Jolliet ».",
+    "note": "Point dans la Basse-Ville (rue Sous-le-Fort) ; l'emplacement exact de la maison n'est pas donné.",
     "type": "lieu"
    }
   }

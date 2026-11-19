@@ -20,7 +20,7 @@ css/style.css         mise en page et habillage (parchemin, cartouche, journal d
 js/fonds.js           fonds de carte : Parchemin (par défaut), Plan moderne, Satellite ; lignes de rhumb
 js/app.js             carte, couches, timeline (1645-1667 par année, 1668-1700 par mois), fiches
 js/visite.js          visite animée (canot ou navire selon le mode de la route)
-data/lieux.geojson    46 lieux (points)
+data/lieux.geojson    49 lieux (points)
 data/trajets.geojson  18 routes (lignes)
 scripts/donnees.py    construit les deux GeoJSON (textes, dates, coordonnées, sources)
 images/               canot, navire, rose des vents, ornements, bords brûlés
