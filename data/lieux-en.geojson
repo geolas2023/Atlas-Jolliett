@@ -572,7 +572,7 @@
     "certitude": "certaine",
     "categorie": "vie",
     "description": "In Quebec, the Jesuit superior Claude Dablon writes, from Jolliet's account, the “Relation of the discovery of the South Sea,” dated August 1, 1674. Jolliet redraws the lost map from memory and presents it to Frontenac, who sends it to Colbert on November 14. On October 10 he writes Bishop Laval an account of the voyage and his shipwreck. He is 29.",
-    "sources": "BAnQ, P1000,S3,D1035, Documents officiels and Relations sur les voyages de Louis Jolliet, fichiers 13-28 (manuscript), 29-36 (édition de 1944) et 37-47 (transcription); Gagnon, Louis Jolliet (2e éd., 1913), p. 138-149; Gravier, Gabriel (1880), Étude sur une map inconnue, la première dressée par Louis Joliet en 1674 après son exploration du Mississipi avec le P. Jacques Marquette en 1673, Paris, Maisonneuve, p. 5-15.",
+    "sources": "BAnQ, P1000,S3,D1035, Documents officiels and Relations sur les voyages de Louis Jolliet, fichiers 13-28 (manuscript), 29-36 (édition de 1944) et 37-47 (transcription); Gagnon, Louis Jolliet (2e éd., 1913), p. 138-149.",
     "note": "Several copies of this map, with different place names, are known. Gabriel Gravier (1880) published one previously unknown, taken from an atlas acquired by the Maisonneuve bookshop: titled “Decouuerte de Plusieurs Nations Dans la nouuelle France en l'année 1673 et 1674” (85 × 67 cm), it would be, in his view, the very first, drawn by Jolliet as soon as he returned, and the oldest map of the Mississippi; he notes on it the letter to Frontenac in which Jolliet mentions the loss of his strongbox, and the legend on the “Mer Vermeille” (Vermilion Sea) where California lies. The copies in the Navy's Dépôt des cartes call the river “Riuiere Colbert,” the valley “Colbertie,” the Illinois River “Riuiere de la Diuine” and the Wisconsin “Miskonsing”; one of them reports a village seen by Jolliet twenty days' travel from a nation that trades with California. Gravier also attributes to Jolliet the drafting of the large map dedicated to Colbert by Intendant Duchesneau and drawn by Franquelin.",
     "type": "lieu"
    }
@@ -1150,6 +1150,54 @@
     "description": "In 1903, Laenas G. Weld recalculated the voyage. In his view, the latitudes on Marquette's map are shifted about one degree south, as are those of the mouths of the Illinois, the Missouri and the Ohio. The more than sixty leagues traveled from the Wisconsin (about 207 miles) would lead to a landing near Port Louisa, in Louisa County, opposite the mouth of the Iowa River, at about 41° 12'. This rather than near the Des Moines, the site chosen by Gagnon (entry L12).",
     "sources": "L. G. Weld, “Joliet and Marquette in Iowa”, Iowa Journal of History and Politics, vol. 1, no. 1 (January 1903), tiré à part, p. 14-22 (PDF in the author's Drive, folder ILLINOIS_MISSISSIPPI_KANKAKEE_JOLIET_MARQUETTE).",
     "note": "An author's hypothesis, opposed to Gagnon's location; the question remains open. Point placed at Port Louisa (Iowa).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -71.2028,
+     46.8129
+    ]
+   },
+   "properties": {
+    "id": "L49",
+    "nom": "Quebec, rue Sous-le-Fort: the 1679 house and the occupations of a settled discoverer",
+    "debut": 1679.5,
+    "fin": 1679.5,
+    "date_edtf": "1679",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "vie",
+    "description": "Kept out of the pays d'en haut, Jolliet resigns himself to staying in Quebec, where he combines several occupations: organist of the cathedral, teacher of music and hydrography, fur merchant. In 1679 he buys a house at the foot of the cliff, on rue Sous-le-Fort, and obtains, jointly with his father-in-law Jacques de Lalande, the rights to a seigneury on the North Shore. The same year, in May, he leaves for Hudson Bay by the Saguenay and the Rupert with his brother Zacharie, Louis and Pierre Lemieux, Guillaume Bissot, Étienne and Pierre Lessard, Pierre Legrand, a man named Denys, Father Silvy and two Innu guides, Kakarhaben and Sahiou.",
+    "sources": "S. Bouchard and M.-C. Lévesque, Ils ont couru l'Amérique (Montreal, Lux, 2014), ch. “Louis Jolliet”.",
+    "note": "Point in the Lower Town (rue Sous-le-Fort); the exact location of the house is not given.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.057,
+     41.589
+    ]
+   },
+   "properties": {
+    "id": "L50",
+    "nom": "Lockport: the Illinois and Michigan Canal, the cut Jolliet dreamed of (1674-1848)",
+    "debut": 1674.5,
+    "fin": 1848.5,
+    "date_edtf": "1674/1848",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "toponymie",
+    "description": "At the Chicago portage, Jolliet judges that a canal half a league long across the prairie would be enough to go by boat from the Lake of the Illinois to the Saint-Louis (Des Plaines) River and down to the Gulf of Mexico: this is the “fourth remark” that Father Dablon publishes in 1674, as the Canal du Languedoc is being completed in France. The Illinois and Michigan Canal, begun in 1836, realizes the project in 1848: seventeen locks and four aqueducts between Lake Michigan and the Illinois River, fed by the Calumet and the DuPage. Its headquarters are at Lockport, at the foot of Mount Joliet.",
+    "sources": "C. J. Balesi, “The Legacy of the French Canals”, conférence, Lockport (Illinois), Canal Corridor Association, 20 oct. 2016, tapuscrit (PDF in the author's Drive, folder WILL_COUNTY), p. 3 and 25.",
+    "note": "Point at the canal's historic headquarters in Lockport.",
     "type": "lieu"
    }
   }
