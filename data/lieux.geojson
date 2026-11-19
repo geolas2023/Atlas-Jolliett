@@ -1176,6 +1176,30 @@
     "note": "Point dans la Basse-Ville (rue Sous-le-Fort) ; l'emplacement exact de la maison n'est pas donné.",
     "type": "lieu"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -88.057,
+     41.589
+    ]
+   },
+   "properties": {
+    "id": "L50",
+    "nom": "Lockport : le canal Illinois-Michigan, la tranchée rêvée par Jolliet (1674-1848)",
+    "debut": 1674.5,
+    "fin": 1848.5,
+    "date_edtf": "1674/1848",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "toponymie",
+    "description": "Au portage de Chicago, Jolliet juge qu'un canal d'une demi-lieue à travers la prairie suffirait pour passer en barque du lac des Illinois à la rivière Saint-Louis (Des Plaines) et descendre jusqu'au golfe du Mexique : c'est la « quatrième remarque » que le père Dablon publie en 1674, alors que s'achève en France le canal du Languedoc. Le canal Illinois-Michigan, commencé en 1836, réalise ce projet en 1848 : dix-sept écluses et quatre aqueducs entre le lac Michigan et la rivière des Illinois, alimentés par la Calumet et la DuPage. Son siège est à Lockport, au pied du mont Joliet.",
+    "sources": "C. J. Balesi, « The Legacy of the French Canals », conférence, Lockport (Illinois), Canal Corridor Association, 20 oct. 2016, tapuscrit (PDF du Drive de l'auteur, dossier WILL_COUNTY), p. 3 et 25.",
+    "note": "Point au siège historique du canal à Lockport.",
+    "type": "lieu"
+   }
   }
  ]
 }
