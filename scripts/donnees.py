@@ -14,6 +14,7 @@ G = "Gagnon, Louis Jolliet (2e éd., 1913)"
 R = "Récit des voyages du P. Marquette (1855)"
 WLD = "L. G. Weld, « Joliet and Marquette in Iowa », Iowa Journal of History and Politics, vol. 1, n° 1 (janvier 1903), tiré à part"
 KZ = "R. Knight et L. Zeuch, « Mount Joliet: Its Place in Illinois History and Its Location », Journal of the Illinois State Historical Society, vol. 23, n° 1 (avril 1930), p. 84-91"
+BOU = "S. Bouchard et M.-C. Lévesque, Ils ont couru l'Amérique (Montréal, Lux, 2014), ch. « Louis Jolliet »"
 B = "BAnQ, P1000,S3,D1035, Documents officiels et Relations sur les voyages de Louis Jolliet"
 
 def dec(edtf):
@@ -342,6 +343,10 @@ L('L48', "Embouchure de la rivière Iowa : l'autre site proposé pour le village
   "En 1903, Laenas G. Weld refait les calculs du voyage. Pour lui, les latitudes de la carte de Marquette sont décalées d'environ un degré vers le sud, comme celles des embouchures de l'Illinois, du Missouri et de l'Ohio. Les plus de soixante lieues parcourues depuis le Wisconsin (environ 207 milles) conduiraient à un débarquement près de Port Louisa, dans le comté de Louisa, en face de l'embouchure de la rivière Iowa, vers 41° 12'. Ce serait plutôt que près de la Des Moines, site retenu par Gagnon (fiche L12).",
   f"{WLD}, p. 14-22 (PDF du Drive de l'auteur, dossier ILLINOIS_MISSISSIPPI_KANKAKEE_JOLIET_MARQUETTE).",
   "Hypothèse d'auteur, opposée à la localisation de Gagnon ; la question reste ouverte. Point placé à Port Louisa (Iowa).")
+
+L('L49', "Québec, rue Sous-le-Fort : la maison de 1679 et les métiers d'un découvreur sédentaire", -71.2028, 46.8129, '1679', 'annee', 'approximative', 'vie',
+  "Écarté des pays d'en Haut, Jolliet se résigne à demeurer à Québec, où il cumule les occupations : organiste de la cathédrale, professeur de musique et d'hydrographie, marchand de fourrures. En 1679, il achète une maison au pied de la falaise, rue Sous-le-Fort, et obtient, en copropriété avec son beau-père Jacques de Lalande, les droits d'une seigneurie sur la Côte-Nord. La même année, il part en mai pour la baie d'Hudson par le Saguenay et la Rupert avec son frère Zacharie, Louis et Pierre Lemieux, Guillaume Bissot, Étienne et Pierre Lessard, Pierre Legrand, un nommé Denys, le père Silvy et deux guides innus, Kakarhaben et Sahiou.",
+  f"{BOU}.", "Point dans la Basse-Ville (rue Sous-le-Fort) ; l'emplacement exact de la maison n'est pas donné.")
 
 os.makedirs('data', exist_ok=True)
 for nom, feats in (('lieux', LIEUX), ('trajets', TRAJETS)):
