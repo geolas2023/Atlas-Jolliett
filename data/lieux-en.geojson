@@ -1200,6 +1200,78 @@
     "note": "Point at the canal's historic headquarters in Lockport.",
     "type": "lieu"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.505,
+     37.635
+    ]
+   },
+   "properties": {
+    "id": "L51",
+    "nom": "Grand Tower (Tower Rock): the dreaded rock and the iron of Perry County",
+    "debut": 1673.5,
+    "fin": 1673.55,
+    "date_edtf": "1673-07~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "decouverte",
+    "description": "In early July 1673, between the mouth of the Pekitanouï (Missouri) and that of the Ouabouskigou (Ohio), the canoes pass Grand Tower (Tower Rock), a rocky islet in the middle of the Mississippi long dreaded by boatmen. According to the historian Louis Houck, the account of the voyage describes this rock and notes iron deposits in the vicinity, present-day Perry County (Missouri).",
+    "sources": "Houck, Louis (1908), A History of Missouri from the Earliest Explorations and Settlements until the Admission of the State into the Union, Chicago, R. R. Donnelley, vol. 1, p. 103, 157-163 (archive.org, historyofmissour01houc).",
+    "note": "The identification of the rock in the account with Grand Tower is Houck's; the date is inferred from the rest of the voyage.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.05,
+     35.15
+    ]
+   },
+   "properties": {
+    "id": "L52",
+    "nom": "Écores à Margot (Chickasaw Bluffs): the 1673 passage and the disputed “post”",
+    "debut": 1673.53,
+    "fin": 1673.55,
+    "date_edtf": "1673-07~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "decouverte",
+    "description": "Around mid-July 1673, going down toward Mitchigamea, the canoes skirt the Écores à Margot (Chickasaw Bluffs), where Memphis would rise. Tennessee histories recall this passage (Ramsey 1853, Goodspeed 1887, Young 1912). According to Keating, cited by the Tennessee Historical Magazine (1916), Jolliet even opened a trading post at the bluffs; the magazine reports that this claim is disputed, and the account of the voyage says nothing of it.",
+    "sources": "Ramsey, J. G. M. (1853), The Annals of Tennessee, Charleston, p. 38-40; Young, J. P. (ed.) (1912), Standard History of Memphis, Knoxville, p. 32; Tennessee Historical Magazine, vol. II (1916), p. 238, 243 (archive.org, tennesseehistori02tennuoft).",
+    "note": "No contemporary source attests the trading post: the atlas mentions it only as a late, disputed claim.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.7275,
+     45.8664
+    ]
+   },
+   "properties": {
+    "id": "L53",
+    "nom": "St. Ignace: Marquette's remains found (1877)",
+    "debut": 1877.672,
+    "fin": 1903.999,
+    "date_edtf": "1877-09-03/1903",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "toponymie",
+    "description": "On September 3, 1877, at St. Ignace, the remains of Father Marquette, which some Kiskakon had brought back there in 1677 (see the entry on his death), are found beneath the ruins of the old mission chapel. In 1903 Alfred Hamy, who wants to rescue Marquette and Jolliet from oblivion in France, devotes chapters to this discovery, to the marble statue given by Wisconsin to the Capitol in Washington, to the bronze statue in the city of Marquette and to the plan for a monument at Michilimackinac.",
+    "sources": "Hamy, Alfred (1903), Au Mississipi: la première exploration (1673). Le père Jacques Marquette, de Laon, et Louis Jolliet, according to M. Ernest Gagnon, Paris, J. Maisonneuve, p. 5-9 (table et introduction).",
+    "note": "Entry based on the table of contents and introduction of Hamy's book.",
+    "type": "lieu"
+   }
   }
  ]
 }
