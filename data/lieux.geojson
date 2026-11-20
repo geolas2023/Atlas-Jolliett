@@ -1200,6 +1200,78 @@
     "note": "Point au siège historique du canal à Lockport.",
     "type": "lieu"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -89.505,
+     37.635
+    ]
+   },
+   "properties": {
+    "id": "L51",
+    "nom": "Grand Tower (Tower Rock) : le rocher redouté et le fer du comté de Perry",
+    "debut": 1673.5,
+    "fin": 1673.55,
+    "date_edtf": "1673-07~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "decouverte",
+    "description": "Au début de juillet 1673, entre l'embouchure du Pekitanouï (Missouri) et celle de l'Ouabouskigou (Ohio), les canots passent devant Grand Tower (Tower Rock), un îlot rocheux au milieu du Mississippi, longtemps redouté des bateliers. Selon l'historien Louis Houck, le récit du voyage décrit ce rocher et signale des gisements de fer dans les environs, l'actuel comté de Perry (Missouri).",
+    "sources": "Houck, Louis (1908), A History of Missouri from the Earliest Explorations and Settlements until the Admission of the State into the Union, Chicago, R. R. Donnelley, vol. 1, p. 103, 157-163 (archive.org, historyofmissour01houc).",
+    "note": "L'identification du rocher du récit à Grand Tower est celle de Houck ; la date est déduite de la suite du voyage.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.05,
+     35.15
+    ]
+   },
+   "properties": {
+    "id": "L52",
+    "nom": "Écores à Margot (Chickasaw Bluffs) : le passage de 1673 et le « poste » contesté",
+    "debut": 1673.53,
+    "fin": 1673.55,
+    "date_edtf": "1673-07~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "decouverte",
+    "description": "Vers la mi-juillet 1673, en descendant vers Mitchigamea, les canots longent les écores à Margot (Chickasaw Bluffs), où s'élèvera Memphis. Les histoires du Tennessee rappellent ce passage (Ramsey 1853, Goodspeed 1887, Young 1912). Selon Keating, cité par le Tennessee Historical Magazine (1916), Jolliet aurait même ouvert un poste de traite aux écores ; la revue rapporte que cette affirmation est contestée, et le récit du voyage n'en dit rien.",
+    "sources": "Ramsey, J. G. M. (1853), The Annals of Tennessee, Charleston, p. 38-40 ; Young, J. P. (éd.) (1912), Standard History of Memphis, Knoxville, p. 32 ; Tennessee Historical Magazine, vol. II (1916), p. 238, 243 (archive.org, tennesseehistori02tennuoft).",
+    "note": "Le poste de traite n'est attesté par aucune source du temps : l'atlas le mentionne seulement comme une affirmation tardive et contestée.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.7275,
+     45.8664
+    ]
+   },
+   "properties": {
+    "id": "L53",
+    "nom": "Saint-Ignace : les restes de Marquette retrouvés (1877)",
+    "debut": 1877.672,
+    "fin": 1903.999,
+    "date_edtf": "1877-09-03/1903",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "toponymie",
+    "description": "Le 3 septembre 1877, à Saint-Ignace, on retrouve sous les vestiges de l'ancienne chapelle de la mission les restes du père Marquette, que des Kiskakons y avaient rapportés en 1677 (voir la fiche de sa mort). En 1903, Alfred Hamy, qui veut tirer de l'oubli en France Marquette et Jolliet, consacre des chapitres à cette découverte, à la statue de marbre offerte par le Wisconsin au Capitole de Washington, à la statue de bronze de la ville de Marquette et au projet d'un monument à Michillimackinac.",
+    "sources": "Hamy, Alfred (1903), Au Mississipi : la première exploration (1673). Le père Jacques Marquette, de Laon, et Louis Jolliet, d'après M. Ernest Gagnon, Paris, J. Maisonneuve, p. 5-9 (table et introduction).",
+    "note": "Fiche fondée sur la table des matières et l'introduction de Hamy.",
+    "type": "lieu"
+   }
   }
  ]
 }
