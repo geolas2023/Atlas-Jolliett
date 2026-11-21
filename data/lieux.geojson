@@ -93,7 +93,7 @@
     "categorie": "decouverte",
     "description": "Le 24 septembre 1669, au village iroquois de Tinaouataoua, à l'ouest du lac Ontario, Jolliet rencontre les sulpiciens Dollier de Casson et René de Bréhant de Galinée, partis avec Cavelier de La Salle. Il revient des grands lacs, où Talon l'a envoyé chercher les mines de cuivre, Galinée note sa rencontre dans son journal ; peu après, La Salle se sépare des deux prêtres, qui gagnent l'Ouest par le lac Érié.",
     "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 44-47.",
-    "note": "Site de Tinaouataoua placé près de l'actuelle Hamilton (Ontario), selon l'identification courante.",
+    "note": "Site de Tinaouataoua placé près de l'actuelle Hamilton (Ontario), selon l'identification courante. Contesté : selon Jean Delanglez (Louis Jolliet, vie et voyages, 1950), dont rend compte Guy Frégault (Revue d'histoire de l'Amérique française, vol. 4, n° 2, 1950, p. 281), le Jolliet rencontré en septembre 1669 par Dollier et Galinée « n'est pas Louis Jolliet, comme on le croyait, mais son frère, Adrien » ; le même compte rendu confirme en revanche que le Jolliet témoin de la prise de possession de juin 1671 est bien Louis (fiche L05). Gravier (1880, p. 25) situe pour sa part la rencontre de Jolliet et de Galinée « sur le lac Erié ».",
     "type": "lieu"
    }
   },
@@ -141,7 +141,7 @@
     "categorie": "escale",
     "description": "Le 8 décembre 1672, jour de l'Immaculée-Conception, Jolliet arrive à la mission Saint-Ignace avec les ordres de Frontenac et de Talon pour le père Jacques Marquette. L'hiver se passe à recueillir les renseignements des Indiens qui ont fréquenté ces pays et à tracer une carte des rivières, des nations et du cours de la grande rivière. Le 17 mai 1673, ils partent sur deux canots d'écorce avec cinq hommes, munis de blé d'Inde et de viande boucanée.",
     "sources": "Récit des voyages du P. Marquette (1855), p. 5-8 ; Gagnon, Louis Jolliet (2e éd., 1913), p. 67-80.",
-    "note": "Le manuscrit de Sainte-Marie donne le 17 mai pour le départ ; Thévenot (1681) donne le 13 mai.",
+    "note": "Le manuscrit de Sainte-Marie donne le 17 mai pour le départ ; Thévenot (1681) donne le 13 mai. Le 2 novembre 1672, Frontenac écrit à Colbert : « M. Talon a aussi jugé expédient pour le service d'envoyer le sieur Jolliet à la découverte de la mer du Sud par le pays des Maskoutens et la grande rivière qu'ils appellent Mississippi, qu'on croit se décharger dans la mer de Californie » (cité par Catherine Ferland, Jean Talon (1626-1694) « l'incomparable Intendant » de la Nouvelle-France, p. 191, PDF du Drive de l'auteur, dossier JEAN_TALON). Frégault (1950, p. 281) rapporte que, selon Delanglez, un passage de cette lettre a été mal transcrit dans le Rapport de l'archiviste de la province de Québec pour 1926-1927, d'où un faux sens ; Ferland n'indique pas quelle transcription elle suit.",
     "type": "lieu"
    }
   },
@@ -406,7 +406,13 @@
     "description": "Au village d'Akansea, sur la rive gauche presque en face de l'embouchure de l'Arkansas, les voyageurs sont reçus avec le calumet. Un jeune homme qui comprend l'illinois leur apprend que la mer n'est qu'à dix jours de canot, mais que des nations armées par les Espagnols barrent la route. Jolliet et Marquette décident de rebrousser chemin plutôt que de tomber aux mains des Espagnols et de perdre le fruit du voyage. Le chef déjoue un complot contre eux et leur offre un calumet.",
     "sources": "Récit des voyages du P. Marquette (1855), p. 81-90 ; Gagnon, Louis Jolliet (2e éd., 1913), p. 117-125.",
     "note": "Gagnon place le village sur la rive gauche (est), un peu au nord de l'embouchure de l'Arkansas.",
-    "type": "lieu"
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/marquette-1673-carte-manitoumie.jpg",
+      "legende": "« Carte de la nouvelle decouverte que les peres Iesuites ont fait en l'année 1672, et continuée par le P. Iacques Marquette de la mesme compagnie, accompagné de quelq. francois, en l'année 1673, qu'on pourra nommer en francois la Manitoumie » : près de « Dakansea », la mention « On est venu iusques icy a la hauteur de 33 deg. » marque le terme du voyage. Carte du XVIIe siècle, domaine public ; photographie de l'exemplaire de la Bibliothèque nationale, Paris, Estampes, Vd 30 (cote inscrite sur la photographie ; fichier du Drive de l'auteur)."
+     }
+    ]
    }
   },
   {
@@ -572,9 +578,19 @@
     "certitude": "certaine",
     "categorie": "vie",
     "description": "À Québec, le supérieur des jésuites Claude Dablon rédige d'après le récit de Jolliet la « Relation de la découverte de la mer du Sud », datée du 1er août 1674. Jolliet redessine de mémoire la carte perdue et la présente à Frontenac, qui l'envoie à Colbert le 14 novembre. Le 10 octobre, il écrit à Mgr de Laval le récit du voyage et de son naufrage. Il a 29 ans.",
-    "sources": "BAnQ, P1000,S3,D1035, Documents officiels et Relations sur les voyages de Louis Jolliet, fichiers 13-28 (manuscrit), 29-36 (édition de 1944) et 37-47 (transcription) ; Gagnon, Louis Jolliet (2e éd., 1913), p. 138-149.",
-    "note": "",
-    "type": "lieu"
+    "sources": "BAnQ, P1000,S3,D1035, Documents officiels et Relations sur les voyages de Louis Jolliet, fichiers 13-28 (manuscrit), 29-36 (édition de 1944) et 37-47 (transcription) ; Gagnon, Louis Jolliet (2e éd., 1913), p. 138-149 ; Gravier, Gabriel (1880), Étude sur une carte inconnue, la première dressée par Louis Joliet en 1674 après son exploration du Mississipi avec le P. Jacques Marquette en 1673, Paris, Maisonneuve, p. 5-15, 46-47.",
+    "note": "Plusieurs copies de cette carte, de nomenclature différente, sont connues. Gabriel Gravier (1880) en publie une jusque-là inconnue, tirée d'un atlas acquis par la librairie Maisonneuve : intitulée « Decouuerte de Plusieurs Nations Dans la nouuelle France en l'année 1673 et 1674 » (85 × 67 cm), elle serait selon lui la toute première, tracée par Jolliet dès son retour, et la plus ancienne carte du Mississipi ; il y relève la lettre à Frontenac où Jolliet évoque la perte de sa cassette, et la légende sur la « Mer Vermeille » où est la Californie. Les copies du Dépôt des cartes de la Marine nomment le fleuve « Riuiere Colbert », la vallée « Colbertie », la rivière des Illinois « Riuiere de la Diuine » et le Wisconsin « Miskonsing » ; l'une d'elles rapporte un village vu par Jolliet à vingt journées d'une nation commerçant avec la Californie. Gravier attribue aussi à Jolliet le tracé de la grande carte dédiée à Colbert par l'intendant Duchesneau et dessinée par Franquelin.",
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/jolliet-1674-carte-nouvelle-decouverte-frontenac.jpg",
+      "legende": "« Nouvelle Decouverte de plusieurs Nations Dans la Nouvelle France En l'année 1673 et 1674 » : carte manuscrite dédiée au comte de Frontenac et signée de Jolliet, avec à gauche la lettre au gouverneur ; au sud-ouest, la « Mer Vermeille » et la Californie. Carte du XVIIe siècle, domaine public ; dépositaire non indiqué (fichier map2.jpg du Drive de l'auteur)."
+     },
+     {
+      "src": "images/jolliet-1674-carte-descouverte-ayer-48.jpg",
+      "legende": "« Carte de la descouuerte du Sr Jolliet ou l'on voit la communication du fleuue St Laurens auec les lacs Frontenac, Erié, lac des Hurons et Ilinois », avec en haut la lettre de Jolliet au comte de Frontenac ; le Mississippi y est la « Riuiere Colbert », qui traverse « La Colbertie ou Amerique occidentale ». Carte manuscrite du XVIIe siècle, domaine public ; exemplaire de la Newberry Library (Ayer MS map 48), d'après le nom du fichier (Drive de l'auteur)."
+     }
+    ]
    }
   },
   {
@@ -693,7 +709,7 @@
     "categorie": "concession",
     "description": "Le 10 mars 1679, l'intendant Duchesneau concède à Jolliet et à son beau-père Jacques de Lalande les îles et îlets de Mingan, sur la côte nord du golfe, pour la pêche et la traite. Le roi ratifie la concession le 29 mai 1680. Jolliet y construit une maison et un magasin, que la flotte de Phips détruit en 1690.",
     "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 213-215, 240-241, 248.",
-    "note": "Établissement placé dans l'archipel de Mingan ; emplacement précis inconnu.",
+    "note": "Établissement placé dans l'archipel de Mingan ; emplacement précis inconnu. Selon Claude Paquet, Les îles Mingan, perles du Saint-Laurent (compilation non datée, PDF du Drive de l'auteur, iles_Mingan.pdf), p. 6 et 34 du PDF, d'après Gauthier-Larouche, p. 63, « la maison de Louis Joliet » fut « bâtie vers 1680 » sur l'île du Havre de Mingan (50° 17′ N, 64° 01′ O), en face de la rivière et du village montagnais de Mingan, et Jolliet et Lalande y établirent leur poste de traite. Cette compilation de vulgarisation n'est pas sûre (elle date de 1674 la découverte du Mississipi) : le point n'a pas été déplacé.",
     "type": "lieu"
    }
   },
@@ -789,7 +805,7 @@
     "categorie": "concession",
     "description": "En mars 1680, Duchesneau concède à Jolliet en fief et seigneurie l'île d'Anticosti, à l'embouchure du Saint-Laurent, en récompense de la découverte du pays des Illinois. Le roi ratifie la concession le 29 mai 1680 et donne à Jolliet le titre d'hydrographe. En 1681, Jolliet s'y établit avec sa famille : douze personnes, deux arpents défrichés, deux bêtes à cornes et six fusils. Il y hiverne deux fois dans une maison qu'il a bâtie et y fait la pêche et la traite.",
     "sources": "Gagnon, Louis Jolliet (2e éd., 1913), p. 228-241, 304-305.",
-    "note": "L'emplacement de l'établissement sur l'île n'est pas connu : le point est symbolique.",
+    "note": "L'emplacement de l'établissement sur l'île n'est pas connu : le point est symbolique. Selon Claude Paquet, Les îles Mingan, perles du Saint-Laurent (compilation non datée, PDF du Drive de l'auteur, iles_Mingan.pdf), p. 36 du PDF, Louis-Olivier Gamache, né à L'Islet en 1787 et mort en 1854, « avait construit sa maison précisément à l'endroit où Jolliet avait jadis bâti un fort », à la baie Gamache (49° 48′ N, 64° 22′ O), devenue Port-Menier (p. 39 du PDF). C'est une tradition rapportée par une compilation de vulgarisation, dont l'article renvoie à Bélanger, p. 46-50 : le point n'a pas été déplacé.",
     "type": "lieu"
    }
   },
@@ -1269,7 +1285,7 @@
     "categorie": "toponymie",
     "description": "Le 3 septembre 1877, à Saint-Ignace, on retrouve sous les vestiges de l'ancienne chapelle de la mission les restes du père Marquette, que des Kiskakons y avaient rapportés en 1677 (voir la fiche de sa mort). En 1903, Alfred Hamy, qui veut tirer de l'oubli en France Marquette et Jolliet, consacre des chapitres à cette découverte, à la statue de marbre offerte par le Wisconsin au Capitole de Washington, à la statue de bronze de la ville de Marquette et au projet d'un monument à Michillimackinac.",
     "sources": "Hamy, Alfred (1903), Au Mississipi : la première exploration (1673). Le père Jacques Marquette, de Laon, et Louis Jolliet, d'après M. Ernest Gagnon, Paris, J. Maisonneuve, p. 5-9 (table et introduction).",
-    "note": "Fiche fondée sur la table des matières et l'introduction de Hamy.",
+    "note": "Fiche fondée sur la table des matières et l'introduction de Hamy. Bailey (Père James Marquette, Detroit, 1878, p. 10 du PDF du Drive de l'auteur), qui écrit à Mackinac le 17 juillet 1878, précise que « last year » les fondations de l'ancienne église et les restes de Marquette, dans le caveau, ont été trouvés « on lot No. 19, Mr. David Murray's place, at Point St. Ignace ».",
     "type": "lieu"
    }
   }

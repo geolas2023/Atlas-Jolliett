@@ -282,6 +282,14 @@ function zoomerSur(f) {
   carte.fitBounds(b, { padding: { top: 60, bottom: 60, left: 60, right: 260 }, maxZoom: 7, essential: true });
 }
 
+// Images d'une fiche : champ « images » = [{src, legende}]. Au clic sur la carte, MapLibre transmet
+// les tableaux des propriétés sous forme de texte JSON ; la visite et les ancres passent l'objet d'origine.
+function imagesFiche(p) {
+  let imgs = p.images;
+  if (typeof imgs === 'string') { try { imgs = JSON.parse(imgs); } catch (e) { imgs = []; } }
+  return Array.isArray(imgs) ? imgs.filter(im => im && im.src) : [];
+}
+
 function afficherFiche(p, geom) {
   const estTrajet = geom === 'LineString' || p.type === 'trajet';
   if (carte.getLayer('trajet-actif')) carte.setFilter('trajet-actif', ['==', ['get', 'id'], estTrajet ? p.id : '']);
@@ -298,6 +306,7 @@ function afficherFiche(p, geom) {
       <span class="badge ${echapper(p.certitude)}">${echapper(NOMS_CERTITUDE[p.certitude] || p.certitude)}</span>
     </p>
     ${p.description ? `<p class="description">${echapper(p.description)}</p>` : ''}
+    ${imagesFiche(p).map(im => `<figure class="illustration"><a href="${echapper(im.src)}" target="_blank" rel="noopener" title="${L('Agrandir l\'image', 'Enlarge the image')}"><img src="${echapper(im.src)}" alt="${echapper(im.legende || p.nom)}" loading="lazy"></a>${im.legende ? `<figcaption>${echapper(im.legende)}</figcaption>` : ''}</figure>`).join('')}
     ${p.note ? `<p class="note"><strong>${L('Note critique :', 'Critical note:')}</strong> ${echapper(p.note)}</p>` : ''}
     <div class="sources"><strong>${L('Source :', 'Source:')}</strong> ${echapper(p.sources)}</div>`;
   panneau.querySelector('.fermer').addEventListener('click', fermerFiche);
