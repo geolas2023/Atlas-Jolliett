@@ -139,6 +139,10 @@ body:not(.fond-parchemin) .parchemin::before, body:not(.fond-parchemin) .parchem
 #panneau .sources { border-top: 1px solid var(--sepia); margin-top: 1rem; padding-top: .5rem; font-size: .88rem; color: var(--encre-pale); }
 #panneau .sources strong { font-family: var(--fell-sc); font-weight: normal; }
 #panneau .avertissement { background: rgba(90, 120, 130, .1); border: 1px dashed var(--sepia); padding: .5rem; font-style: italic; font-size: .9rem; }
+#panneau figure.illustration { margin: .8rem 0; text-align: center; }
+#panneau figure.illustration img { display: block; max-width: 100%; height: auto; margin: 0 auto; border: 1px solid var(--sepia);
+  box-shadow: 1px 2px 5px rgba(15, 30, 40, .25); cursor: zoom-in; }
+#panneau figure.illustration figcaption { margin-top: .3rem; font-size: .82rem; font-style: italic; line-height: 1.35; color: var(--encre-pale); }
 
 /* ---------- Timeline ---------- */
 .timeline { display: flex; align-items: center; gap: .8rem; padding: .55rem 1rem .4rem; color: var(--velin); flex-wrap: wrap;
